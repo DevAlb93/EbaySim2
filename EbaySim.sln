@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{849D8569-5F07-47FC-AC1A-9237982DC868}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistent", "Persistent", "{98CC773F-DB33-48D1-8A29-03E28C532380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbaySim.Persistent", "EbaySim.Persistent\EbaySim.Persistent.csproj", "{2F7D7F3F-547C-4D26-826D-1BFCB71A4BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{12909DDA-8BF9-41ED-928D-B88FEC259040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbaySim.Domain", "EbaySim.Domain\EbaySim.Domain.csproj", "{196A47BD-056F-433E-856F-8DB6B949691A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{5AD215A8-4EA1-4EF6-91FE-9BCF91017D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbaySim.API", "EbaySim.API\EbaySim.API.csproj", "{A93D0774-81D9-449F-BA4B-A576DC2AC3CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F7D7F3F-547C-4D26-826D-1BFCB71A4BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7D7F3F-547C-4D26-826D-1BFCB71A4BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7D7F3F-547C-4D26-826D-1BFCB71A4BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7D7F3F-547C-4D26-826D-1BFCB71A4BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196A47BD-056F-433E-856F-8DB6B949691A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196A47BD-056F-433E-856F-8DB6B949691A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196A47BD-056F-433E-856F-8DB6B949691A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196A47BD-056F-433E-856F-8DB6B949691A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93D0774-81D9-449F-BA4B-A576DC2AC3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93D0774-81D9-449F-BA4B-A576DC2AC3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93D0774-81D9-449F-BA4B-A576DC2AC3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93D0774-81D9-449F-BA4B-A576DC2AC3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98CC773F-DB33-48D1-8A29-03E28C532380} = {849D8569-5F07-47FC-AC1A-9237982DC868}
+		{2F7D7F3F-547C-4D26-826D-1BFCB71A4BF2} = {98CC773F-DB33-48D1-8A29-03E28C532380}
+		{12909DDA-8BF9-41ED-928D-B88FEC259040} = {849D8569-5F07-47FC-AC1A-9237982DC868}
+		{196A47BD-056F-433E-856F-8DB6B949691A} = {12909DDA-8BF9-41ED-928D-B88FEC259040}
+		{5AD215A8-4EA1-4EF6-91FE-9BCF91017D4C} = {849D8569-5F07-47FC-AC1A-9237982DC868}
+		{A93D0774-81D9-449F-BA4B-A576DC2AC3CD} = {5AD215A8-4EA1-4EF6-91FE-9BCF91017D4C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C291FD5-BB18-4481-8A27-57E055201EDE}
+	EndGlobalSection
+EndGlobal
